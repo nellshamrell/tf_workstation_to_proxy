@@ -29,8 +29,8 @@ To use this config you will need:
 Clone this repo from GitHub
 
 ```bash
-$ git clone http://github.com/nellshamrell/tf_proxy
-$ cd tf_proxy
+$ git clone http://github.com/nellshamrell/tf_workstation_to_proxy
+$ cd tf_workstation_to_proxy
 ```
 
 Then create a file to hold the values for the variables needed by this config:

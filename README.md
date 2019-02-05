@@ -65,7 +65,6 @@ When config is complete, you will see some output which looks like this:
 
 ```bash
 proxy_server_ip = 34.221.179.84
-server_behind_proxy_ip = 35.167.0.233
 workstation_ip = 34.215.150.118
 ```
 

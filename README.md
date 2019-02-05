@@ -84,13 +84,11 @@ This will show any traffic coming into the proxy server.
 In the **Workstation Server**, run:
 
 ```bash
-$ curl http://server_behind_proxy_ip
+$ curl google.com
 ```
 
-You will see the Apache2 default page returned.
+You will see the Google 301 page return.
 
-Now take a look back at the **Proxy Server**, you should see an entry in the log showing the request coming from the Workstation Server into the Server Behind the Proxy.
-
-If you want to make certain that the Server Behind the Proxy really is only accepting requests from the Proxy server, run the curl command from another machine that is not a part of this set up. You should see the request just hang.
+Now take a look back at the **Proxy Server**, you should see an entry in the log showing the request coming from the Workstation Server to google.com
 
 Enjoy your new proxy environment!
